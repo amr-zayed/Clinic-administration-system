@@ -1,0 +1,69 @@
+.form-conatiner {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+  }
+  
+  .title {
+    width: 173px;
+    height: 58px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    color: var(--white);
+    text-align: left;
+    font: normal normal bold 38px/58px Montserrat;
+    letter-spacing: 0;
+  }
+      
+  .fields {
+    margin: 0;
+    width: 295px;
+    height: 56px;
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .text-field {
+    width: 295px;
+    height: 56px;
+    border-bottom: 1px solid var(--blue);
+    color: var(--blue);
+  }
+  
+  .forgot-password {
+    display: flex;
+    justify-content: end;
+    color: var(--blue);
+    font: normal normal bold 14px Lato;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #329BEB;
+  }
+  
+  .error {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+  
+    /* identical to box height, or 133% */
+  
+    letter-spacing: 0.4px;
+  
+    /* M3/sys/light/error */
+  
+    color: #b3261e;
+  }
+  
+  .login-button {
+    height: 46px;
+    width: 295px;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    background-color: #5BE499;
+    color: #F3F3F3;
+    font: normal normal bold 14px Lato;
+  }

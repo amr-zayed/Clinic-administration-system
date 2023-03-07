@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    background-color: #E5EFF9;
+    flex-wrap: wrap;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .form {
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E5EFF9;
+  }
+  
+  .title{
+    font-size: 30px !important;
+  }
+
+  .logo {
+    align-self: flex-start;
+    margin-top: -50px;
+    margin-left: 50px;
+    display: flex;
+    color: var(--white);
+  }
+  
+  .logo h1 {
+    margin-left: 10px;
+    font: normal normal 600 18px Montserrat;
+  }
+  
+  .login-form{
+    border-radius: 50px;
+    padding: 60px;
+    background-color: #F3F3F3;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .form {
+      padding-top: 10vh;
+      padding-bottom: 10vh;
+    }
+  }
